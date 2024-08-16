@@ -1,18 +1,22 @@
 /* common shared styles*/
-body{
+body {
     font-family: "Open Sans", sans-serif;
-    
+
 }
+
 /* nav related styles */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 180px;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
-.button-primary{
+
+.button-primary {
     font-size: 15px;
     border-radius: 5px;
     background-color: #FD6E0A;
@@ -21,19 +25,56 @@ nav{
     color: white;
     padding: 13px 20px;
 }
-.nav-title{
+
+.nav-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
-    list-style: none;margin-right: 50px;
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* header related styles */
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../portfolio-resources/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
+}
+.profile-pic {
+    width: 500px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color:#474747;
+    margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 85px;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
